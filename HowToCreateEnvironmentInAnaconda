@@ -1,0 +1,12 @@
+Step1: Create the new Environment using Anaconda Prompt
+            conda create -n env_name python==3.6.9 (mentioning a python version is optional
+                                                but always a good practice)
+       Activate new Environment:
+            conda activate env_name
+       To check the list of Environments:
+            conda env list
+
+Step2: Go to Python Interpreter (File>Settings>Project  or search for python Interpreter
+       Go to settings in Python Interpreter > Click Add
+       Copy the environment address from 'conda env list' command on anaconda prompt
+       paste it here in Pycharm after clicking Add above.
